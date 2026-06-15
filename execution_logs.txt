@@ -1,0 +1,69 @@
+Initializing Live Sentinel Protocol...
+
+=== EXECUTING LIVE SIFT AUTOMATION LOOP ===
+╭───────────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────────╮
+│                                                                                                                            │
+│  Agent: Triage Analyst                                                                                                     │
+│                                                                                                                            │
+│  Task: 1. Execute 'Live SIFT Netstat'.                                                                                     │
+│  2. Extract IPs, PIDs, and run the 'Check Microsoft IP Range' tool on destination IPs.                                     │
+│  3. Flag violations against these rules:                                                                                   │
+│                                                                                                                            │
+│  === SIFT KNOWN RULES ===                                                                                                  │
+│  RULE-001: svchost.exe MUST only connect to Microsoft IP ranges                                                            │
+│  RULE-002: lsass.exe MUST NOT listen on any network port                                                                   │
+│  RULE-003: Any process on port 443 to non-Microsoft IP is HIGH SUSPICION (applies to RULE-003 only)                        │
+│                                                                                                                            │
+│  4. Include the raw tool output in your final answer so the Auditor can verify it.                                         │
+│                                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}[0m
+╭───────────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────────╮
+│                                                                                                                            │
+│  Agent: Triage Analyst                                                                                                     │
+│                                                                                                                            │
+│  Task: 1. Execute 'Live SIFT Netstat'.                                                                                     │
+│  2. Extract IPs, PIDs, and run the 'Check Microsoft IP Range' tool on destination IPs.                                     │
+│  3. Flag violations against these rules:                                                                                   │
+│                                                                                                                            │
+│  === SIFT KNOWN RULES ===                                                                                                  │
+│  RULE-001: svchost.exe MUST only connect to Microsoft IP ranges                                                            │
+│  RULE-002: lsass.exe MUST NOT listen on any network port                                                                   │
+│  RULE-003: Any process on port 443 to non-Microsoft IP is HIGH SUSPICION (applies to RULE-003 only)                        │
+│                                                                                                                            │
+│  4. Include the raw tool output in your final answer so the Auditor can verify it.                                         │
+│                                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}[0m
+╭───────────────────────────────────────────────────── 🤖 Agent Started ─────────────────────────────────────────────────────╮
+│                                                                                                                            │
+│  Agent: Triage Analyst                                                                                                     │
+│                                                                                                                            │
+│  Task: 1. Execute 'Live SIFT Netstat'.                                                                                     │
+│  2. Extract IPs, PIDs, and run the 'Check Microsoft IP Range' tool on destination IPs.                                     │
+│  3. Flag violations against these rules:                                                                                   │
+│                                                                                                                            │
+│  === SIFT KNOWN RULES ===                                                                                                  │
+│  RULE-001: svchost.exe MUST only connect to Microsoft IP ranges                                                            │
+│  RULE-002: lsass.exe MUST NOT listen on any network port                                                                   │
+│  RULE-003: Any process on port 443 to non-Microsoft IP is HIGH SUSPICION (applies to RULE-003 only)                        │
+│                                                                                                                            │
+│  4. Include the raw tool output in your final answer so the Auditor can verify it.                                         │
+│                                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}[0m
+[91mAn unknown error occurred. Please check the details below.[0m
+[91mError details: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}[0m
+[CrewAIEventsBus] Warning: Event pairing mismatch. 'task_failed' closed 'agent_execution_started' (expected 'task_started')
+[CrewAIEventsBus] Warning: Event pairing mismatch. 'crew_kickoff_failed' closed 'agent_execution_started' (expected 
+'crew_kickoff_started')

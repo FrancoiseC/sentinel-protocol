@@ -1,0 +1,7 @@
+.env
+*.save
+__pycache__/
+*.key
+*.secret
+execution_logs.txt
+venv/
